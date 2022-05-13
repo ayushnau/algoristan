@@ -1,0 +1,53 @@
+html {
+    --scrollbarBG: #CFD8DC;
+    --thumbBG: #90A4AE;
+  }
+  body::-webkit-scrollbar {
+    width: 11px;
+  }
+  body {
+    scrollbar-width: thin;
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
+  
+
+
+.cardmasterContainer{
+    /* border: 3px solid red; */
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 
+    0 15px 40px rgba(166,173,201,.2),
+    0 25px 50px rgba(141, 144, 156, 0.2);
+    border-radius: 9px;
+
+
+}
+.cardimage{
+  height: 20vh;
+}
+.cardimage img{
+  border-radius: 9px;
+}
+.cardText{
+    scrollbar-width: thin;
+    padding: .3em .6em;
+}
+.cardText a{
+  color: black;
+}
+.cardheading{
+    margin-bottom: .4em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.cardheading span{
+  
+  
+}

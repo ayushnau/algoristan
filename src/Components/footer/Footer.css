@@ -1,0 +1,83 @@
+.footermasterContainer{
+    display: flex;
+    padding: 3em 4em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    background: rgb(48, 40, 29);
+    margin-top: 4em;
+}
+.firstFooter{
+    width: 35%;
+}
+.listContainer li{
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.listContainer a{
+    position: relative;
+}
+.listContainer a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: rgb(255,189,89);
+    left: 1px;
+    bottom: -6px;
+    transition: .4s;
+}
+.listContainer a:hover:after{
+    width: 100%;
+}
+.listContainer a{
+    color: white;
+}
+.secondFooter{
+    width: 35%;
+    padding-left: 2em;
+}
+.secondFooter div{
+    margin-top: .8em;
+}
+.secondFooter .footerheading{
+    font-size: larger;
+    font-weight: 500;
+}
+.footerSocial{
+    width: 16%;
+    
+}
+.footerSocial i{
+    font-size: 29px;
+    color: white;
+}
+.footerSocial span{
+    margin-left: 1em;
+}
+.footerSocial span:hover i{
+    color: rgb(255,189,89);
+}
+
+.footersecContainer{
+    text-align: center;
+}
+.footertop{
+    cursor: pointer;
+    margin-top: 1em;
+    font-size: 1.6em;
+    animation: blinker 3s linear infinite;
+}
+  @keyframes blinker {
+    50% {
+      opacity: .5;
+    }
+  }
+
+@media (max-width:790px) {
+    .footerSocial{
+        margin-top: 4em;        
+        width: initial;
+    }
+}

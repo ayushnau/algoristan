@@ -1,0 +1,14 @@
+.courseCard{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px,300px));
+    justify-content: center;
+    column-gap: 2.5em;
+    row-gap: 1em;
+    padding: 2em 4em;
+}
+.heading{
+    margin-top: 2em;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+}
