@@ -1,0 +1,25 @@
+.PrivacyPolicyMasterContainer{
+    padding: 2em 3em;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1300px;
+}
+.PrivacyPolicyMasterContainer > .paraheading{
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.4em;
+}
+ .paraheading{
+    margin-top: 1.5em;
+}
+
+
+@media (max-width:450px)
+{
+    .PrivacyPolicyMasterContainer{
+    padding: 0;
+    width: initial;
+    margin: 0 10px;
+}
+
+}

@@ -40,11 +40,12 @@ img{
     width: 90%;
     display: flex;
     list-style-type: none;
-    justify-content: end;
+    justify-content: flex-end;
 
 }
 .navbar_list li{
     margin: 0 1em;
+    white-space: nowrap;
 }
 .navbar_list a{
     position: relative;
@@ -111,5 +112,7 @@ button{
     }
     .navbar_image{
         margin-left: 0;
+        align-self: self-start;
     }
+    
 }

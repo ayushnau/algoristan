@@ -1,0 +1,26 @@
+.contactMasterContainer{
+    padding: 1em 3.4em;
+}
+.contactformContainer{
+    width: min(800px,100%); 
+    margin: 0 auto;
+}
+.contactformContainer *{
+    width: 100%;
+}
+.contactformContainer :nth-child(3) *{
+    width: initial;
+}
+.contactformContainer input{
+    padding: 1em 2em;
+    margin-top: .3em;
+    margin-bottom: 1.2em;
+}
+.contactformContainer label{
+    margin-block: 2em;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    padding: 1em 2em;
+}

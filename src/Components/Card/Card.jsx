@@ -7,7 +7,7 @@ const Card = (props) => {
       <div className="cardmasterContainer">
         <div className="cardimage"><img src={props.Logo} alt="" /></div>
         <div className="cardText">
-          <div className="cardheading"><a href="#">{props.textheading}</a> </div>
+          <div className="cardheading"><a href={props.id? `:${props.id}`:"#"}>{props.textheading}</a> </div>
           <div className="cardpara"><a href="#">{props.textpara}</a></div>
         
         </div>

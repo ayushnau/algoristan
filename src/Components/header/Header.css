@@ -1,11 +1,11 @@
 .headermasterContainer{
-    height: 77vh;
     background: linear-gradient(rgba(255, 189, 89, 0.21),80%,white),url('../../Static/vector5.png') no-repeat;
     display: flex;
 }
 .headermasterContainer > *{
     flex: 1;
-}.headerText{
+}
+.headerText{
     font-size: 1.4em;
     padding: 3em 5em;
     color: black;
@@ -47,5 +47,10 @@
 @media (max-width:600px) {
 .headerText{
     padding: 50px 20px;
+}
+}
+@media (max-width:300px) {
+.headerText{
+    padding: 50px 6px;
 }
 }

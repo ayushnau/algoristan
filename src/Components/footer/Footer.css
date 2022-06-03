@@ -81,3 +81,11 @@
         width: initial;
     }
 }
+@media (max-width:300px) {
+    .footermasterContainer{
+        padding: 1em 2em;
+    }
+    .secondFooter{
+        padding: 0;
+    }
+}

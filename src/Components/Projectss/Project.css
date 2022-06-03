@@ -1,0 +1,17 @@
+.projectMasterContainer{
+    padding: 1.3em 3em;
+    font-size: 1.1em;
+}
+.ProjectsContainer{
+    width: min(800px, 100%);   
+    margin: 0 auto;
+}
+/* .ProjectsContainer .paraheading{
+    font-weight: 600;
+} */
+.smallheading{
+    font-size: 2em;
+}
+.margintop{
+    margin-top: 1.3em;
+}

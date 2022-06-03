@@ -48,9 +48,17 @@
 }
 @media (max-width:650px){
     .intropara{
-       padding: .6em .9em;
+        padding: .6em .9em;
     }
     .introlistmaster{
         width: initial;
+    }
+}
+@media (max-width:300px){
+    .intromasterContainer{
+      padding: 1em;
+    }
+    .intropara{
+        font-size: 1em;
     }
 }
