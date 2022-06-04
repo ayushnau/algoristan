@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.7848edda.css",
-    "main.js": "/static/js/main.9c67ed9e.js",
-    "static/media/vector5.png": "/static/media/vector5.b8196a31b8b31243ea58.png",
-    "static/media/ayush.JPG": "/static/media/ayush.a3a40e29a1e7f010670e.JPG",
-    "static/media/algo.png": "/static/media/algo.c0ea604fc589698776f0.png",
-    "static/media/rajiv.png": "/static/media/rajiv.553009cac510b1a86cde.png",
-    "static/media/member2.png": "/static/media/member2.659dacf94d2be9448c42.png",
-    "static/media/pic19.avif": "/static/media/pic19.9cd3c7ea55fb591f60af.avif",
-    "static/media/dataanalysis.jpg": "/static/media/dataanalysis.317da9d38807b5d6163e.jpg",
-    "static/media/pic18.avif": "/static/media/pic18.f9c3c4bb8fbe27258dce.avif",
-    "static/media/pic3.jpg": "/static/media/pic3.3ac973de3ddcaa50934d.jpg",
-    "static/media/pic20.avif": "/static/media/pic20.6b4389bddcce61b3dc94.avif",
-    "static/media/machinelearning.jpg": "/static/media/machinelearning.43f5958a13b3ac44c2fe.jpg",
-    "static/media/pic13.jpg": "/static/media/pic13.b4eb589de4844959cde5.jpg",
-    "static/media/pic17.avif": "/static/media/pic17.3ff86bb96bd898681e5c.avif",
-    "index.html": "/index.html",
-    "main.7848edda.css.map": "/static/css/main.7848edda.css.map",
-    "main.9c67ed9e.js.map": "/static/js/main.9c67ed9e.js.map"
+    "main.css": "/algoristan/static/css/main.10749fd2.css",
+    "main.js": "/algoristan/static/js/main.534278a5.js",
+    "static/media/vector5.png": "/algoristan/static/media/vector5.b8196a31b8b31243ea58.png",
+    "static/media/ayush.JPG": "/algoristan/static/media/ayush.a3a40e29a1e7f010670e.JPG",
+    "static/media/algo.png": "/algoristan/static/media/algo.c0ea604fc589698776f0.png",
+    "static/media/rajiv.png": "/algoristan/static/media/rajiv.553009cac510b1a86cde.png",
+    "static/media/member2.png": "/algoristan/static/media/member2.659dacf94d2be9448c42.png",
+    "static/media/pic19.avif": "/algoristan/static/media/pic19.9cd3c7ea55fb591f60af.avif",
+    "static/media/dataanalysis.jpg": "/algoristan/static/media/dataanalysis.317da9d38807b5d6163e.jpg",
+    "static/media/pic18.avif": "/algoristan/static/media/pic18.f9c3c4bb8fbe27258dce.avif",
+    "static/media/pic3.jpg": "/algoristan/static/media/pic3.3ac973de3ddcaa50934d.jpg",
+    "static/media/pic20.avif": "/algoristan/static/media/pic20.6b4389bddcce61b3dc94.avif",
+    "static/media/machinelearning.jpg": "/algoristan/static/media/machinelearning.43f5958a13b3ac44c2fe.jpg",
+    "static/media/pic13.jpg": "/algoristan/static/media/pic13.b4eb589de4844959cde5.jpg",
+    "static/media/pic17.avif": "/algoristan/static/media/pic17.3ff86bb96bd898681e5c.avif",
+    "index.html": "/algoristan/index.html",
+    "main.10749fd2.css.map": "/algoristan/static/css/main.10749fd2.css.map",
+    "main.534278a5.js.map": "/algoristan/static/js/main.534278a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7848edda.css",
-    "static/js/main.9c67ed9e.js"
+    "static/css/main.10749fd2.css",
+    "static/js/main.534278a5.js"
   ]
 }
