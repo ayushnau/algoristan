@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../Static/vector5.png'
 import './Header.css'
+
 
 const Header = () => {
   return (
@@ -22,7 +24,7 @@ const Header = () => {
     </div> 
     <div className="downwardWrapper">
       <div className="downward">
-        <a href="#frontpage"><i className="fa fa-angle-down fa-4x"></i></a>
+        <Link to="#frontpage"><i className="fa fa-angle-down fa-4x"></i></Link>
       </div>
     </div> 
     </>

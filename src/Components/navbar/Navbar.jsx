@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import Logo from '../../Static/algo.png'
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   const handleClick = (e) =>{
@@ -17,13 +19,13 @@ const Navbar = () => {
   return (
   <>
     <nav id='navid'>
-        <div className="navbar_image"><a href="/"><img src={Logo} alt="" /></a></div>
+        <div className="navbar_image"><Link to={process.env.PUBLIC_URL+ '/'}><img src={Logo} alt="" /></Link></div>
         <div className="navbar_listcontainer" id='navbar_listcontainer'>
             <ul className='navbar_list'>
-                <li className="navbar_listitem"><a href="/">Home</a></li>
-                <li className="navbar_listitem"><a href="/Team">Team</a></li>
-                <li className="navbar_listitem"><a href="/Contactus">Contact Us</a></li>
-                <li className="navbar_listitem"><a href="/Project">Project</a></li>
+                <li className="navbar_listitem"><Link to={process.env.PUBLIC_URL+ '/'}>Home</Link></li>
+                <li className="navbar_listitem"><Link to="/Team">Team</Link></li>
+                <li className="navbar_listitem"><Link to="/Contactus">Contact Us</Link></li>
+                <li className="navbar_listitem"><Link to="/Project">Project</Link></li>
             </ul>
             <button className='Loginbtn'>Login</button>
         </div>

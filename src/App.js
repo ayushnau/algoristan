@@ -10,7 +10,7 @@ import Project from './Components/Projectss/Project'
 import Articles, { ArticleSpecific } from './Components/Articles/Articles'
 import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy'
 import {
-  BrowserRouter,
+  BrowserRouter ,
   Routes,
   Route,
 } from "react-router-dom";
@@ -19,10 +19,10 @@ import {
 const App = () => {
   return (
     <>
+      <BrowserRouter >
       <Navbar />
-      <BrowserRouter>
         <Routes>
-          <Route path="process.env.PUBLIC_URL + '/'" element={<>
+          <Route path={process.env.PUBLIC_URL+ '/'} element={<>
             <Header />
             <Intro />
             <Courses />
@@ -32,10 +32,10 @@ const App = () => {
           <Route path='/Project' element={<Project />}/>
           <Route path='/PrivacyPolicy' element={<PrivacyPolicy />}/>
           <Route path='/Articles' element={<Articles />}/>
-          <Route path='/:id' element={<ArticleSpecific id="1"/>}/>
+          <Route path='/Articles/:id' element={<ArticleSpecific id="1"/>}/>
         </Routes>
-      </BrowserRouter>
       <Footer />
+      </BrowserRouter >
 
     </>
   )

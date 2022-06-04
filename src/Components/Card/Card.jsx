@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Card.css'
+
 
 const Card = (props) => {
   return (
@@ -7,8 +9,8 @@ const Card = (props) => {
       <div className="cardmasterContainer">
         <div className="cardimage"><img src={props.Logo} alt="" /></div>
         <div className="cardText">
-          <div className="cardheading"><a href={props.id? `:${props.id}`:"#"}>{props.textheading}</a> </div>
-          <div className="cardpara"><a href="#">{props.textpara}</a></div>
+          <div className="cardheading"><Link to={props.id? `:${props.id}`:"#"}>{props.textheading}</Link> </div>
+          <div className="cardpara"><Link to="#">{props.textpara}</Link></div>
         
         </div>
       </div>
@@ -17,7 +19,3 @@ const Card = (props) => {
 }
 
 export default Card
-
-
-
-// reduce the size of scroll bar

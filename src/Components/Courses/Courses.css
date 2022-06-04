@@ -17,3 +17,11 @@
         font-size: 1.8em;
     }
 }
+@media (max-width:400px) {
+    .courseCard{
+        grid-template-columns: repeat(auto-fill,minmax(100px,90%));
+        padding: 0;
+    }
+}
+
+

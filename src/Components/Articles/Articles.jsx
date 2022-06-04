@@ -81,9 +81,5 @@ const ArticleSpecific = (props) => {
 
 
 
-// adding indented para for article
-
-
-
 
 

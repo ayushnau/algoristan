@@ -1,8 +1,8 @@
 {
   "name": "algoristan",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://Ayush2020012016.github.io/algoristan",
+  "homepage": "https://ayush2020012016.github.io/algoristan/",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",

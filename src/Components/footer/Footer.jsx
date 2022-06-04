@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Footer.css'
+
 
 const Footer = () => {
     return (
@@ -7,12 +9,12 @@ const Footer = () => {
             <div className="footermasterContainer">
                 <div className="firstFooter">
                     <ul className="listContainer">
-                        <li className="list"><a href="/Articles">Articles</a></li>
-                        <li className="list"><a href="/Team">Team</a></li>
-                        <li className="list"><a href="#">Learning</a></li>
-                        <li className="list"><a href="PrivacyPolicy">Privacy Policy</a></li>
-                        <li className="list"><a href="#">Careers</a></li>
-                        <li className="list"><a href="#">Projects</a></li>
+                        <li className="list"><Link to="/Articles">Articles</Link></li>
+                        <li className="list"><Link to="/Team">Team</Link></li>
+                        <li className="list"><Link to="#">Learning</Link></li>
+                        <li className="list"><Link to="PrivacyPolicy">Privacy Policy</Link></li>
+                        <li className="list"><Link to="#">Careers</Link></li>
+                        <li className="list"><Link to="Articles">Projects</Link></li>
                     </ul>
                 </div>
                 <div className="secondFooter">
@@ -25,15 +27,15 @@ const Footer = () => {
                 </div>
 
                 <div className="footerSocial">
-                    <a href="#"><span><i className="fab fa-instagram"></i></span></a>
-                    <a href="#"><span><i className="fab fa-linkedin-in"></i></span></a>
-                    <a href="#"><span><i className="fab fa-twitter"></i></span></a>
-                    <a href="#"><span><i className="fab fa-facebook-square"></i></span></a>
+                    <Link to="#"><span><i className="fab fa-instagram"></i></span></Link>
+                    <Link to="#"><span><i className="fab fa-linkedin-in"></i></span></Link>
+                    <Link to="#"><span><i className="fab fa-twitter"></i></span></Link>
+                    <Link to="#"><span><i className="fab fa-facebook-square"></i></span></Link>
                 </div>
             </div>
             <div className="footersecContainer">
                 <div className="footerCopyright">© 2022 Algoristan Research All right reserved</div>
-                <div className="footertop"><a href="#navid"><i className="fa fa-arrow-up"></i></a></div>
+                <div className="footertop"><Link to="#navid"><i className="fa fa-arrow-up"></i></Link></div>
             </div>
         </>
     )
