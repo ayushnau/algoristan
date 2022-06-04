@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/algoristan/static/css/main.10749fd2.css",
+    "main.css": "/algoristan/static/css/main.7cefac3b.css",
     "main.js": "/algoristan/static/js/main.e47c3844.js",
     "static/media/vector5.png": "/algoristan/static/media/vector5.b8196a31b8b31243ea58.png",
     "static/media/ayush.JPG": "/algoristan/static/media/ayush.a3a40e29a1e7f010670e.JPG",
@@ -16,11 +16,11 @@
     "static/media/pic13.jpg": "/algoristan/static/media/pic13.b4eb589de4844959cde5.jpg",
     "static/media/pic17.avif": "/algoristan/static/media/pic17.3ff86bb96bd898681e5c.avif",
     "index.html": "/algoristan/index.html",
-    "main.10749fd2.css.map": "/algoristan/static/css/main.10749fd2.css.map",
+    "main.7cefac3b.css.map": "/algoristan/static/css/main.7cefac3b.css.map",
     "main.e47c3844.js.map": "/algoristan/static/js/main.e47c3844.js.map"
   },
   "entrypoints": [
-    "static/css/main.10749fd2.css",
+    "static/css/main.7cefac3b.css",
     "static/js/main.e47c3844.js"
   ]
 }
